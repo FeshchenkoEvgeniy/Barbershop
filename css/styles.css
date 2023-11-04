@@ -9,7 +9,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: var(--main-text-color);
-  background-color: #555555;
+  background-color: #c6b5b5;
 }
 
 ul {
@@ -19,7 +19,35 @@ ul {
 a {
   text-decoration: none;
 }
-
+.btn {
+  color: var(--first-text-color);
+  background-color: inherit;
+  border-radius: 25px;
+  border: 1px solid var(--accent-color);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: 1.08px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+  background-color: var(--accent-color);
+}
+.subtitle {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.36;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+}
+.title {
+  font-family: "Raleway", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 2.1px;
+}
 .header-list .link {
   color: var(--main-text-color);
   font-size: 11px;
@@ -67,4 +95,92 @@ a {
   font-size: 18px;
   line-height: 1.66;
   letter-spacing: 0.36px;
+}
+.about-text,
+.reviews-text {
+  color: var(--second-text-color);
+  font-size: 18px;
+  line-height: 1.66;
+  letter-spacing: 0.36px;
+}
+.about-main-text {
+  color: var(--second-text-color);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.85;
+  letter-spacing: 0.28px;
+}
+.btn.about-btn {
+  color: var(--main-text-color);
+}
+.btn.about-btn:hover,
+.btn.about-btn:focus {
+  color: var(--first-text-color);
+}
+.subtitle.price-subtitle {
+  color: rgba(157, 164, 189, 0.6);
+}
+.title.price-title,
+.title.form-title,
+.title.contacts-title {
+  color: var(--first-text-color);
+}
+.price-text {
+  color: var(--thrid-text-color);
+  font-size: 18px;
+  line-height: 1.66;
+  letter-spacing: 0.36px;
+}
+.reviews-item-span {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.35;
+  letter-spacing: 2.1px;
+}
+.reviews-item-text {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.36;
+}
+.masters-name {
+  font-size: 18px;
+  line-height: 1.38;
+  letter-spacing: 0.36px;
+}
+.masters-proffesion {
+  color: var(--accent-color);
+  font-size: 14px;
+  line-height: 1.35;
+  letter-spacing: 0.28px;
+}
+.contacts-address {
+  font-style: normal;
+}
+.contacts-link,
+.time-text {
+  color: var(--thrid-text-color);
+  font-size: 18px;
+  line-height: 1.66;
+  letter-spacing: 0.36px;
+}
+.contacts-link.underline {
+  text-decoration: underline;
+}
+.footer-copyrigh {
+  color: #9da4bd;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.36;
+  letter-spacing: 2.2px;
+}
+.footer-list .link {
+  color: #303030;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.36;
+  letter-spacing: 2.2px;
+}
+.footer-list .link:hover,
+.footer-list .link:focus {
+  color: var(--accent-color);
 }
