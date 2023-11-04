@@ -1,0 +1,70 @@
+:root {
+  --main-text-color: #303030;
+  --first-text-color: #ffffff;
+  --second-text-color: #555555;
+  --thrid-text-color: #9da4bd;
+  --accent-color: #ff6c00;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: var(--main-text-color);
+  background-color: #555555;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-list .link {
+  color: var(--main-text-color);
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.37;
+  letter-spacing: 2.2px;
+}
+
+.header-list .link:hover,
+.header-list .link:focus {
+  color: var(--accent-color);
+}
+.nav-list .link,
+.menu .link {
+  color: var(--first-text-color);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: 1.2px;
+}
+
+.nav-list .link:hover,
+.nav-list .link:focus,
+.menu .link:hover,
+.menu .link:focus {
+  color: var(--accent-color);
+}
+.hero-subtitle {
+  color: rgba(157, 164, 189, 0.6);
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.37;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+}
+.hero-title {
+  color: var(--first-text-color);
+  font-family: "Raleway", sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  letter-spacing: 3.6px;
+}
+.hero-text {
+  color: var(--thrid-text-color);
+  font-size: 18px;
+  line-height: 1.66;
+  letter-spacing: 0.36px;
+}
