@@ -14,16 +14,29 @@ body {
 
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
   text-decoration: none;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
 .btn {
-  color: var(--first-text-color);
+  min-width: 120px;
+  padding: 12px 20px;
   background-color: inherit;
   border-radius: 25px;
   border: 1px solid var(--accent-color);
+  color: var(--first-text-color);
   font-size: 12px;
   font-weight: 600;
   line-height: 1.33;
@@ -34,6 +47,19 @@ a {
 .btn:hover,
 .btn:focus {
   background-color: var(--accent-color);
+}
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.header-wrapper {
+  display: flex;
+  align-items: baseline;
+}
+.header-container {
+  padding-top: 32px;
+  margin-right: 26px;
 }
 .subtitle {
   font-size: 11px;
@@ -48,6 +74,9 @@ a {
   font-weight: 700;
   letter-spacing: 2.1px;
 }
+.header-list {
+  margin-top: 282px;
+}
 .header-list .link {
   color: var(--main-text-color);
   font-size: 11px;
@@ -59,6 +88,25 @@ a {
 .header-list .link:hover,
 .header-list .link:focus {
   color: var(--accent-color);
+}
+.hero-wrapper {
+  display: flex;
+  align-items: baseline;
+}
+.nav-list {
+  display: flex;
+  padding: 0 0 0 43px;
+}
+.nav-list-item:not(:last-child) {
+  margin-right: 40px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  margin-left: 320px;
+}
+.menu .link {
+  margin-right: 40px;
 }
 .nav-list .link,
 .menu .link {
@@ -75,6 +123,9 @@ a {
 .menu .link:focus {
   color: var(--accent-color);
 }
+.hero-content {
+  padding: 208px 0 199px 99px;
+}
 .hero-subtitle {
   color: rgba(157, 164, 189, 0.6);
   font-size: 11px;
@@ -84,6 +135,7 @@ a {
   text-transform: uppercase;
 }
 .hero-title {
+  margin: 20px 0;
   color: var(--first-text-color);
   font-family: "Raleway", sans-serif;
   font-size: 72px;
@@ -91,6 +143,7 @@ a {
   letter-spacing: 3.6px;
 }
 .hero-text {
+  width: 400px;
   color: var(--thrid-text-color);
   font-size: 18px;
   line-height: 1.66;

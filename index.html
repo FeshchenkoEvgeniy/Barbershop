@@ -10,37 +10,64 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
-      <a href="./index.html" class="logo-link">logo svg</a>
-      <ul class="header-list">
-        <li>
-          <a href="https://www.youtube.com/?app=desktop" class="link"
-            >Youtube</a
-          >
-        </li>
-        <li><a href="https://www.instagram.com/" class="link">Instagram</a></li>
-      </ul>
-      <nav class="header-nav">
-        <ul class="nav-list">
-          <li><a href="" class="link">О нас</a></li>
-          <li><a href="" class="link">Услуги и цены</a></li>
-          <li><a href="" class="link">Мастера</a></li>
-          <li><a href="" class="link">Контакты</a></li>
-        </ul>
-      </nav>
-      <div class="menu">
-        <a href="tel:+380441111111" class="link">+38 044 111 11 11</a>
-        <button type="button" class="btn header-btn">Онлайн-запись</button>
+      <div class="container header-wrapper">
+        <div class="header-container">
+          <a href="./index.html" class="logo-link">logo svg</a>
+          <ul class="header-list">
+            <li class="header-list-item">
+              <a href="https://www.youtube.com/?app=desktop" class="link"
+                >Youtube</a
+              >
+            </li>
+            <li class="header-list-item">
+              <a href="https://www.instagram.com/" class="link">Instagram</a>
+            </li>
+          </ul>
+        </div>
+        <div class="hero">
+          <div class="hero-wrapper">
+            <nav class="hero-header-nav">
+              <ul class="nav-list">
+                <li class="nav-list-item"><a href="" class="link">О нас</a></li>
+                <li class="nav-list-item">
+                  <a href="" class="link">Услуги и цены</a>
+                </li>
+                <li class="nav-list-item">
+                  <a href="" class="link">Мастера</a>
+                </li>
+                <li class="nav-list-item">
+                  <a href="" class="link">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="menu">
+              <a href="tel:+380441111111" class="link">+38 044 111 11 11</a>
+              <button type="button" class="btn header-btn">
+                Онлайн-запись
+              </button>
+            </div>
+          </div>
+          <div class="hero-content">
+            <p class="hero-subtitle">A hair salon for men in Kyiv</p>
+            <h1 class="hero-title">BarberShop</h1>
+            <p class="hero-text">
+              Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно
+              и со вкусом.
+            </p>
+          </div>
+        </div>
       </div>
-      <p class="hero-subtitle">A hair salon for men in Kyiv</p>
-      <h1 class="hero-title">BarberShop</h1>
-      <p class="hero-text">
-        Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно и со
-        вкусом.
-      </p>
     </header>
     <main>
       <section class="section">
