@@ -1,0 +1,15 @@
+.subtitle {
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.36;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+}
+.subtitle::before {
+  content: "";
+  width: 60px;
+  height: 1px;
+  margin-right: 20px;
+}

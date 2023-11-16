@@ -1,0 +1,9 @@
+.works {
+  display: flex;
+  margin-top: 44px;
+}
+.work__item {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
