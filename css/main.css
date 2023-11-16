@@ -132,6 +132,12 @@ body {
           transform: translate(-50%, -50%);
 }
 
+.backdrop--hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
 .modal__close {
   position: absolute;
   top: 8px;
